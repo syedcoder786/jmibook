@@ -1,0 +1,52 @@
+.html{
+   background-color: #1F1E1D;
+   overflow-x: hidden;
+}
+.body{
+   font-family: sans-serif;
+   text-align: center;
+   /* background-color: rgb(144, 235, 140); */
+   /* background-image: url('../images/clg.jpg'); */
+}
+.body::-webkit-scrollbar{
+   display: none;
+}
+.html #cnv{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   margin: 0;
+   top: 0;
+   left: 0;
+
+}
+.logo{
+   width: 60%;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.html .right{
+   text-align: center;
+}
+.html .desc{
+   width: 90%;
+   margin: 0 auto 0 auto;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+}
+.html .right{
+   background-color: white;
+   width:75%;
+   box-shadow: 0 0 30px green;
+   border-radius: 20px;
+   padding-bottom: 15px;
+   padding-top: 10px;
+}
+
+#err{
+   color: red;
+   font-weight: bold;
+   font-size: 16px;
+}

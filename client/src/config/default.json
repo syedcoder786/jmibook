@@ -1,0 +1,5 @@
+{
+    "proxy":"http://localhost:5000",
+    "ipfsGateway":"https://cloudflare-ipfs.com/ipfs/",
+    "socketProxy":"http://localhost:5000"
+}
