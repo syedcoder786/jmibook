@@ -1,0 +1,110 @@
+/* Global */
+.containerchat{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    /* border: solid; */
+    color: white;
+    position: relative;
+    top: 80px;
+  }
+  
+  .chatarea{
+      height: 80px;
+      width: 90%;
+      border:solid;
+      position: relative;
+      border-radius: 10px;
+      margin-top: 10px;
+      background-color: #e6eaeb;
+  }
+  
+  .chatshow{
+    padding-top: 10px;
+      /*position: relative;*/
+      overflow-y: scroll;
+      width: 90%;
+      height: 500px;
+      border: solid;
+      position: relative;
+      left: 5%;
+      background-color: #e6eaeb;
+      border-radius: 10px;
+  }
+  
+  .chatmsg{
+      /* position: absolute; */
+      padding-top: 10px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* margin-bottom: 8px; */
+      /* border: solid;
+      border-color: rgb(228, 226, 132); */
+      border-radius: 5px;;
+      width: 60%;
+      position: relative;
+      margin: 10px;
+      /* color:rgb(182, 134, 61) */
+      /* left: 38%; */
+  }
+  
+  .chattext{
+	position:relative;
+	top:15px;
+	/*bottom: 15px;*/
+	/*left: 10px;*/
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  }
+
+.sendmsg{
+	position: relative;
+	top:12px;
+  left: 8px;
+	height: 40px;
+	width: 50px;
+	border-radius: 5px;
+	border:none;
+	background-color: rgb(68, 68, 182);
+	color: white;
+	cursor: pointer;
+    /* margin: 6px; */
+}
+
+.sendmsg:hover{
+  background-color: rgb(24, 24, 156);
+}
+  
+  @media(max-width: 768px){
+      .chatshow{
+          height: 800px;
+      }
+      .chattext{
+		width: 70%;
+	}
+  }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

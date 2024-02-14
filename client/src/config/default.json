@@ -1,0 +1,5 @@
+{
+    "proxy":"https://jmibook.onrender.com",
+    "ipfsGateway":"https://cloudflare-ipfs.com/ipfs/",
+    "socketProxy":"https://jmibook.onrender.com"
+}

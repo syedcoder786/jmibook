@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://jamiabook:jb123!@cluster0.rdvlu.mongodb.net/jamiabook",
+    "jwtSecret": "secret"
+}

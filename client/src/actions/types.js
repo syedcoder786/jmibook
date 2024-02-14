@@ -1,0 +1,34 @@
+export const FETCH_POSTS='FETCH_POSTS';
+export const GET_POST='GET_POST';
+export const ERROR_POST='ERROR_POST';
+export const USER_LOADING='USER_LOADING';
+export const USER_LOADED='USER_LOADED';
+export const AUTH_ERROR='AUTH_ERROR';
+export const LOGIN_FAIL='LOGIN_FAIL';
+export const LOGIN_LOADING='LOGIN_LOADING';
+export const LOGIN_SUCCESS='LOGIN_SUCCESS';
+export const LOGOUT_SUCCESS='LOGOUT_SUCCESS';
+export const REGESTER_SUCCESS='REGESTER_SUCCESS';
+export const REGESTER_FAIL='REGESTER_FAIL';
+export const GET_ERRORS='GET_ERRORS';
+export const CLEAR_ERRORS='CLEAR_ERRORS';
+export const POST_LOADING='POST_LOADING';
+export const POST_LOADED='POST_LOADED';
+export const ADD_POST='ADD_POST';
+export const ADD_COMMENT='ADD_COMMENT';
+export const ADD_LIKE='ADD_LIKE';
+// profile actions
+export const PROFILE_USER='PROFILE_USER';
+export const PROFILE_POST='PROFILE_POST';
+export const USER_IMAGE='USER_IMAGE';
+export const USER_DETAILS='USER_DETAILS';
+export const FETCH_USERS='FETCH_USERS';
+//news actions
+export const NEWS_DATA='NEWS_DATA';
+export const LATEST_NEWS='LATEST_NEWS';
+export const NEWS_COMPONENT='NEWS_COMPONENT';
+export const NEWS_COMMENT='NEWS_COMMENT';
+export const ADD_NEWS='ADD_NEWS';
+//nfts
+export const FETCH_NFTS='FETCH_NFTS';
+export const MINT_NFT='MINT_NFT';

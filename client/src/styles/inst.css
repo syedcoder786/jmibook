@@ -1,0 +1,84 @@
+ 
+ body::-webkit-scrollbar{
+    display: none;
+ }
+ 
+.inst .first, .second{
+    width: 90%;
+    margin: 5% auto 5% auto;
+ }
+ 
+ .inst table{
+    margin: 0 auto 60px auto;
+ }
+ 
+ .inst .logo{
+    height: 100px;
+ }
+ 
+ .inst h5{
+    margin: 0 auto 0 auto;
+    width: 75%;
+    text-align: center;
+ }
+ .inst fieldset{
+    border: 1px solid #1F1E1D;
+    border-radius: 10px;
+    margin: 0 10% 0 10%;
+    padding-bottom: 30px;
+ }
+ 
+ .inst h6{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: blue;
+ }
+ 
+ .inst .intro{
+    color: green;
+ }
+ 
+ .inst hr{
+    margin: 20px 0 50px 0;
+ }
+ 
+ .inst input[type="text"], input[type="number"]{
+    border-radius: 10px;
+    border: 1px solid #968d8d;
+    padding-left: 10px;
+    height: 35px;
+    width: 80%;
+    margin: 10px 10% 0 10%;
+ }
+ 
+ .inst input[type="file"]{
+    margin-left: 5px;
+ }
+ 
+ .inst .upload{
+    height: 35px;
+    width: 80%;
+    margin: 5px 10% 5px 10%;
+ }
+ 
+ .inst .upload label, .inst .upload input{
+    display: inline;
+ }
+ 
+ .inst form label{
+    padding-left: 5px;
+ }
+ .inst #confirm{
+    margin-left: 25%;
+ }
+ .inst button[type="submit"]{
+    height: 35px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 30% 50px 30%;
+    background-color: green;
+    color: white;
+ }

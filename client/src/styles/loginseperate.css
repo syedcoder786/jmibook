@@ -1,0 +1,27 @@
+.right{
+    margin:150px auto 30px auto;
+ }
+ .frm{
+    border-radius: 10px;
+    border: 1px solid #968d8d;
+    margin: 5px;
+    padding-left: 10px;
+    height: 35px;
+    width: 88%;
+    font-size: 18px;
+ }
+ .loginbtn{
+    height: 35px;
+    width: 50%;
+    border: 2px solid #968d8d;
+    margin-top: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+ }
+ .loginuser{
+    margin: 10px auto 5px auto;
+    font-size: 15px;
+    text-decoration: none;
+ }
